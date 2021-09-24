@@ -130,7 +130,7 @@ function renderBar(buildings){
 			console.log(i)
 			document.querySelector('#building-table').style.display='inline';
 			d3.select('.image')
-                .attr('src',/img/+i.image)
+                .attr('src',img/+i.image)
 			document.querySelector('.building-name').innerText=String(i.building)
 			document.querySelector('.height').innerText=String(i.height_ft)
 			document.querySelector('.city').innerText=String(i.city)
